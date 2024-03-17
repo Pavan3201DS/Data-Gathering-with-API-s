@@ -18,17 +18,14 @@ In this repository, we'll cover the following aspects:
 
 To get started with data gathering using an API for your Git repository, follow these steps:
 
-1. **Select an API**: Choose the API that provides the data you need for your project. Ensure that the API documentation is available and that you understand how to authenticate and make requests to the API endpoints.
-
-2. **API Authentication**: If the API requires authentication (e.g., API keys, OAuth tokens), make sure to obtain the necessary credentials according to the API documentation.
-
-3. **Data Gathering Script**: Write a script to interact with the API, make requests, and retrieve the desired data. You can use any programming language suitable for your project (e.g., Python, JavaScript, Ruby).
-
-4. **Testing**: Test your data gathering script to ensure that it retrieves data correctly from the API and handles errors gracefully.
-
-5. **Integration with Git**: Integrate your data gathering script into your Git repository. You can create a dedicated directory for scripts or place them in an appropriate location within your project structure.
-
-6. **Documentation**: Document your data gathering process, including instructions for running the script, API usage details, and any dependencies required.
+Usage:
+- Open the script named gather_data.py in your preferred code editor.
+- Replace [API_KEY] with your actual API key or credentials required for accessing the API.
+- Modify the parameters of the API request as needed, such as specifying the search query or defining additional filters.
+- Run the script gather_data.py by executing python gather_data.py in your terminal or command prompt.
+- The script will make requests to the API, retrieve movie data, and store it in a suitable format (e.g., JSON, CSV, etc.). You can customize the script to store the data in the format that best suits your requirements.
+- Data Format:
+The gathered movie data will typically include various attributes such as title, release year, genre, cast, director, ratings, and more, depending on the capabilities of the API being used.
 
 ## Example Code
 
