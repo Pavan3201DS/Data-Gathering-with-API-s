@@ -1,7 +1,7 @@
 
 # Data Gathering Using API
 
-This repository provides guidelines and code samples for gathering data from an API and integrating it into your Git repository.
+This repository provides guidelines and code samples for gathering data from an API and integrating it into your Git repository .
 
 ## Overview
 
